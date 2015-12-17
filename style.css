@@ -1,0 +1,277 @@
+/*
+Theme Name: Rhino
+Theme URI: http://dokolskij.ru
+Description: Rhino WordPress theme
+Author: Andrei Dokolskij
+Version: 1.00
+*/   
+@import url('CSS/classDefault.css');
+@import url('CSS/topMenu.css');
+@import url('CSS/leftMenu.css');
+@import url('CSS/comments.css');
+
+@font-face {
+	font-family: ComicSansMS;
+	src: url(fonts/ComicSansMS.eot);
+	src: local(ComicSansMS), url(fonts/ComicSansMS.ttf);
+}
+
+*{margin: 0; padding:0;}
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #E9DCFF;
+}
+ html, body{
+	height: 100%;
+} 
+h1, h2, h3{
+	font-family: arial;
+}
+header{
+	margin: 0 auto;
+	max-width: 940px;
+	min-height: 10%;
+	border-radius: 10px 10px 0 0;
+	background-color: #E9DCFF;
+}
+
+#headerTop{
+	min-height:30px;
+	background-color: inherit;
+}
+
+#headerBottom{
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	min-height: 140px;
+	background: #654E46 url(images/header.png);
+	background-size: cover;
+	width: 100%;
+}
+#headerBottomLeft{
+	display: table;
+	float:left;
+	width:25%;
+	height: 140px;
+	color: #fff;
+	font: italic 2em ComicSansMS;
+}
+#headerBottomLeft p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#content{
+	margin: 0 auto;
+	max-width: 940px;
+	min-height: 100%;
+	background-color: #fff;
+}
+
+article .meta{
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	color: #333;
+}
+article .postmetadata{
+	margin-top: 0.5em;
+	color: #333;
+}
+article .postmetadata a{
+	color: #008000;
+}
+article .postmetadata a:hover{
+	color: #006400;
+}
+
+section{
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 10px;
+}
+
+.castomAside{
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	padding: 10px;
+	background-color: #DBAA98;
+}
+.clear{
+	clear: both;
+	height:0;
+	font-size:1px;
+	line-height:0px;
+}
+footer{
+	position: relative;
+	height: 50px;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	/* margin-top: -100px; */
+	/*background-color: #9FC8DC;*/
+	background-color: #654E46;
+}
+
+
+.footer_left{
+	margin-left: 1em;
+	width:50%;
+	height: 100%;
+	display: table;
+}
+.footer_left p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inline{
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	display: inline-block;
+  	vertical-align: top;
+  	margin: 1px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	padding: 0.8em;
+  	width: 48%;
+  	height: 300px;
+  	font-size: 0.8em;
+  	border: 1px solid #ccc;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.inline:hover{
+	background-color: #E9DCFF;
+}
+.inline h2{
+	margin-bottom: 0.5em;
+}
+.inline h2 a{
+	text-decoration: none;
+	color:#008000;
+}
+.inline h2 a:hover{
+	text-decoration: underline;
+	color:#006400;
+}
+.inline img{
+	max-height: 10em;
+	max-width: 10em;
+	float:left;
+	margin: 0.5em;
+}
+
+.singleWrap{
+	padding: 2em;
+	padding-top: 1em;
+}
+
+.pageWrap{
+	padding: 2em;
+	padding-top: 1em;
+}
+.pageWrap article>h2{
+	margin-bottom: 0.5em;
+}
+.singleWrap img{
+	max-width: 100%;
+	margin: 0.2em auto;
+}
+.search_result{
+	margin: 1em 0.5em;
+}
+.ui-state-active{
+	background-color: #85675C;
+	color:#fff;
+	background-image: none;
+	moz-box-shadow: inset 0px 0px 7px #222;
+    -webkit-box-shadow: inset 0px 0px 7px #222;
+    box-shadow: inset 0px 0px 7px #222;
+}
+
+.ui-widget-content{
+	background-color: red;
+}
+
+.pagination .screen-reader-text{
+	display: none;
+}
+.pagination .nav-links{
+	margin-top: 0.5em;
+}
+.pagination .page-numbers{
+	background-color: #654E46;
+	color: #fff;
+	padding: 0.2em 0.5em;
+	border-radius: 0.1em;
+}
+.pagination .prev,
+.pagination .next{
+	text-decoration: none;
+}
+.more-link{
+	color:#008000;
+}
+.more-link:hover{
+	color:#006400;
+	font-weight: bold;
+}
+.widget_text{
+	background-color: #E9DCFF;
+	border-radius: 0.3em;
+	padding: 0.5em;
+}
+section p{
+	text-indent: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+span.author{
+	font-style: italic;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+@media screen and (max-width:599px) {
+	section{
+		margin-left: 0;
+	}
+  .castomAside nav li{
+    display: inline;
+    margin-right: 20px;
+  }
+  .inline{
+  	width: 96%;
+  	margin-left:2%;
+  }
+  #search, .widget-area{
+  	display: none;
+  }
+}        
+.button:hover{block
+	cursor: pointer;
+}
+@media screen and (max-width:900px){
+	.widget_calendar{
+		display: none;
+	}
+}
+@media screen and (min-width:600px) {
+  .castomAside {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 26%;
+  }
+}
+
+
+                     

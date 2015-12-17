@@ -1,0 +1,43 @@
+#navTopPanel{
+	min-height: 2.5em;
+	background-color: #85675C;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#navTopPanel ul{
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#navTopPanel ul li{
+	height: 40px;
+	line-height: 40px;
+	float:left;
+	margin: 0 10px;
+	font-size: 1.3em;
+	font-family: arial, sans-serif;
+}
+#navTopPanel ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#navTopPanel ul li a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+#navTopPanel ul li a:active{
+	color:red;
+	text-decoration: none;
+}
+#search{
+	margin-right: 1em;
+	display:table;
+	float:right;
+	height: 2.5em;
+}
+#search form{
+	display:table-cell;
+	vertical-align: middle;
+}

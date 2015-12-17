@@ -1,0 +1,20 @@
+#headerMenu{
+	height: 40px;
+	background-color: #85675C;
+}
+
+#leftMenu ul{
+	padding:0;
+}
+#leftMenu li{
+	margin-top:1em;
+	list-style: none;
+}
+#leftMenu a{
+	color:#333;
+	text-decoration: none;
+}
+#leftMenu a:hover{
+	text-decoration: underline;
+	color:#2E38E5;
+}
